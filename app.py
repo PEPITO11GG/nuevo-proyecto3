@@ -16,7 +16,7 @@ app.secret_key = os.getenv('SESSION_SECRET', 'dev-secret-key-change-in-productio
 # Configuración de Google Cloud OAuth2
 # IMPORTANTE: Las credenciales se cargan desde el archivo .env
 CLIENT_ID: str = os.getenv('GOOGLE_CLIENT_ID', '574970530991-5r06jcnqo5ic4mk65uovgav3s3vil665.apps.googleusercontent.com')
-CLIENT_SECRET: str = os.getenv('GOOGLE_CLIENT_SECRET', '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')
+CLIENT_SECRET: str = os.getenv('GOOGLE_CLIENT_SECRET', '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')
 REDIRECT_URI: str = os.getenv('GOOGLE_REDIRECT_URI', 'https://nuevo-proyecto3.onrender.com/setup/oauth2callback')
 
 # Scopes necesarios para la API de Gmail
