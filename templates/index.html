@@ -45,14 +45,6 @@
             font-size: 1.1em;
         }
 
-        .auth-section {
-            background: rgba(255, 255, 255, 0.08);
-            padding: 25px;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
         .btn {
             padding: 12px 30px;
             border: none;
@@ -226,16 +218,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        .authenticated-badge {
-            display: inline-block;
-            padding: 6px 12px;
-            background: rgba(46, 213, 115, 0.2);
-            border: 1px solid rgba(46, 213, 115, 0.4);
-            color: #2ed573;
-            border-radius: 6px;
-            font-size: 0.9em;
-            margin-left: 15px;
-        }
     </style>
 </head>
 <body>
@@ -249,7 +231,7 @@
             <h2 style="margin-bottom: 20px; color: #e6e6e6;">Buscar Correos de Netflix</h2>
             
             <div class="form-group">
-                <label for="email">Email (opcional)</label>
+                <label for="email">Email de la plataforma</label>
                 <input type="email" id="email" placeholder="tu@email.com">
             </div>
 
@@ -267,7 +249,7 @@
                 </div>
             </div>
 
-            <button class="btn btn-primary" onclick="buscar()">🔍 Buscar</button>
+            <button class="btn btn-primary" onclick="buscar()">🔍 Buscar Correo</button>
         </div>
 
         <div class="status" id="status"></div>
